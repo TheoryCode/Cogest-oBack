@@ -3,6 +3,6 @@ const EventoController = require("../backproject/src/Controllers/EventoControlle
 
 const rotas = Router();
 
-rotas.post("/eventos", EventoController.create);
+rotas.post("/", EventoController.create);
 
 module.exports = rotas;
