@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const EventoController = require("../backproject/src/Controllers/EventoController");
+const EventoController = require("../src/Controllers/EventController");
 
 const rotas = Router();
 
